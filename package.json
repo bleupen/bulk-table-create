@@ -1,0 +1,21 @@
+{
+  "name": "epv-bulk-insert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "fast-csv": "^2.5.0",
+    "pg": "^7.11.0",
+    "pg-copy-streams": "^2.2.0"
+  },
+  "bin": {
+    "populate-epv": "./bin/index.js"
+  }
+}
